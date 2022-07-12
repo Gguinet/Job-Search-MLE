@@ -4,7 +4,7 @@
 
 
 ### ML Eng - System Design
-* 
+* [Designing a machine learning system](https://huyenchip.com/machine-learning-systems-design/design-a-machine-learning-system.html)
 
 ## Summary of keys steps
 
