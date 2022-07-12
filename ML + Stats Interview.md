@@ -3,7 +3,7 @@ Links:
 
 Q&A:
 * How is a decision tree created? 
-    * https://www.kdnuggets.com/2020/01/decision-tree-algorithm-explained.html
+    * [Link1](https://www.kdnuggets.com/2020/01/decision-tree-algorithm-explained.html)
     * Gini index and Node Entropy assist the binary classification tree to make decisions. Basically, the tree algorithm determines the feasible feature that is used to distribute data into the most genuine child nodes. According to the Gini index, if we arbitrarily pick a pair of objects from a group, then they should be of identical class and the probability for this event should be 1. The following are the steps to compute the Gini index:
 
     1. Compute Gini for sub-nodes with the formula: The sum of the square of probability for success and failure (p^2 + q^2)
@@ -22,15 +22,15 @@ Reduced error pruning is perhaps the simplest version: replace each node. If it 
     * VAE is an autoencoder whose encodings distribution is regularised during the training in order to ensure that its latent space has good properties allowing us to generate some new data.
     * so it’s used ia generative fashion.
     * KL divergence of latent layer wrt gaussian + reconstruction on last layer
-    * https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73
+    * [Link1](https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73)
     
 * What is batch normalization? How does a batch normalization layer help?
     * describe batch data, describe batch normalization
-    * While the effect of batch normalization is evident, the reasons behind its effectiveness remain under discussion. It was believed that it can mitigate the problem of internal covariate shift, where parameter initialization and changes in the distribution of the inputs of each layer affect the learning rate of the network.[1] (https://en.wikipedia.org/wiki/Batch_normalization#cite_note-:0-1) Recently, some scholars have argued that batch normalization does not reduce internal covariate shift, but rather smooths the objective function (https://en.wikipedia.org/wiki/Intelligent_agent#Objective_function), which in turn improves the performance.[2] (https://en.wikipedia.org/wiki/Batch_normalization#cite_note-:1-2)However, at initialization, batch normalization in fact induces severe gradient explosion (https://en.wikipedia.org/wiki/Vanishing_gradient_problem) in deep networks, which is only alleviated by skip connections in residual networks.[3] (https://en.wikipedia.org/wiki/Batch_normalization#cite_note-:7-3) Others sustain that batch normalization achieves length-direction decoupling, and thereby accelerates neural networks (https://en.wikipedia.org/wiki/Artificial_neural_network).[4] (https://en.wikipedia.org/wiki/Batch_normalization#cite_note-:2-4) More recently a normalize gradient clipping technique and smart hyperparameter tuning has been introduced in Normalizer-Free Nets, so called "NF-Nets" which mitigates the need for batch normalization.[5] (https://en.wikipedia.org/wiki/Batch_normalization#cite_note-5)[6] (https://en.wikipedia.org/wiki/Batch_normalization#cite_note-6)
+    * While the effect of batch normalization is evident, the reasons behind its effectiveness remain under discussion. It was believed that it can mitigate the problem of internal covariate shift, where parameter initialization and changes in the distribution of the inputs of each layer affect the learning rate of the network. Recently, some scholars have argued that batch normalization does not reduce internal covariate shift, but rather smooths the objective function, which in turn improves the performance. However, at initialization, batch normalization in fact induces severe gradient explosion  in deep networks, which is only alleviated by skip connections in residual networks.Others sustain that batch normalization achieves length-direction decoupling, and thereby accelerates neural networks. 
     
 * Difference between LSTM’s and GRU’s.
     * The key difference between GRU and LSTM is that GRU's bag has two gates that are reset and update while LSTM has three gates that are input, output, forget. GRU is less complex than LSTM because it has less number of gates.
-    * http://colah.github.io/posts/2015-08-Understanding-LSTMs/ Very good explaination
+    * [Link1](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
     * The few differencing points are as follows:
         The GRU has two gates, LSTM has three gates
         GRU does not possess any internal memory, they don’t have an output gate that is present in LSTM
@@ -40,9 +40,7 @@ Reduced error pruning is perhaps the simplest version: replace each node. If it 
     * it’s a different version of LSTM with small gate modification
     
 * What are the different types of text representations used? What is the difference between Word2Vec, Glove, FastText?
-    * embeddings 
-    * contextualized embeddings
-    * https://medium.com/analytics-vidhya/word-embeddings-in-nlp-word2vec-glove-fasttext-24d4d4286a73
+    * All are context independent embeddings [Link1](https://medium.com/analytics-vidhya/word-embeddings-in-nlp-word2vec-glove-fasttext-24d4d4286a73)
     * Word2Vec
         * *Do co-occurences + Autoencoder*
         * CBOW (input is co-occurences) vs Skip-gram (nput is word)
@@ -50,21 +48,20 @@ Reduced error pruning is perhaps the simplest version: replace each node. If it 
         * *Glove is a word vector representation method where training is performed on aggregated global word-word co-occurrence statistics from the corpus*.
         * *Global matrix factorization*
     * FastText is unique because it can *derive word vectors for unknown words or out of vocabulary words* — this is because by taking morphological characteristics of words into account, it can create the word vector for an unknown word. Since *morphology refers to the structure or syntax of the words*, FastText tends to perform better for such task, *word2vec *perform better for *semantic task*.
-        * mix of morpho and auto-encoders
+     * mix of morpho and auto-encoders
         
 * What is the difference between Eigen Value Decomposition (EVD) and Singular Value Decomposition (SVD)? When does SVD behave the same as EVD?
     * SVD is EVX always possible, beyond n*n
     * SVD is when a matrix is diagonalizable and in which case it’s ODO
     
-* All Kernels:
-    * nonlinear, polynomial, Gaussian kernel, Radial basis function (RBF), sigmoid
-    * https://data-flair.training/blogs/svm-kernel-functions/
+* Give me some typical Kernels ?
+    * nonlinear, polynomial, Gaussian kernel, Radial basis function (RBF), sigmoid [Link1](https://data-flair.training/blogs/svm-kernel-functions/)
     
 * Why there is a need for padding in CNN’s?
     * on the size of the image, to incorporate it
     
 * Explain ResNet architecture.
-    * One of the problems ResNets solve is the famous known *vanishing gradient* (https://medium.com/@anishsingh20/the-vanishing-gradient-problem-48ae7f501257). This is because when the network is too deep, the gradients from where the loss function is calculated easily shrink to zero after several applications of the chain rule. This result on the weights never updating its values and therefore, no learning is being performed.
+    * One of the problems ResNets solve is the famous known *vanishing gradient* [Link1](https://medium.com/@anishsingh20/the-vanishing-gradient-problem-48ae7f501257). This is because when the network is too deep, the gradients from where the loss function is calculated easily shrink to zero after several applications of the chain rule. This result on the weights never updating its values and therefore, no learning is being performed.
     * skip connections
     
 * Difference between Logistic Regression and Linear Regression.
@@ -83,9 +80,9 @@ Reduced error pruning is perhaps the simplest version: replace each node. If it 
 * 5 assumptions of linear regression: 
     * Linear relationship
     * Multivariate normality
-    * No or little multicollinearity (https://www.statisticssolutions.com/multicollinearity/)
+    * No or little multicollinearity [Link1](https://www.statisticssolutions.com/multicollinearity/)
     * No auto-correlation
-    * Homoscedasticity (https://www.statisticssolutions.com/free-resources/directory-of-statistical-analyses/homoscedasticity/)
+    * Homoscedasticity [Link2](https://www.statisticssolutions.com/free-resources/directory-of-statistical-analyses/homoscedasticity/)
     
 * How would you improve a classification model that suffers from low precision?
     * The first thing that I would do is ask a couple of questions:
@@ -94,7 +91,7 @@ Reduced error pruning is perhaps the simplest version: replace each node. If it 
     * The other thing that I would do is take advantage of algorithms that are most suited in dealing with imbalanced data, which are tree-boosted algorithms (XGBoost, CatBoost, LightGBM).
     
 * Logistic vs SVM
-    * https://medium.com/axum-labs/logistic-regression-vs-support-vector-machines-svm-c335610a3d16
+    * [Link1](https://medium.com/axum-labs/logistic-regression-vs-support-vector-machines-svm-c335610a3d16)
     
 * What is the difference between modeling the problem as P(y|x) and P(y,x)? What are the advantages of one over the other? Which algorithms are usually used and why?
     * discriminative vs generative
@@ -107,15 +104,15 @@ Reduced error pruning is perhaps the simplest version: replace each node. If it 
     * Log normal noise
     
 * RL Overview:
-    * https://spinningup.openai.com/en/latest/spinningup/rl_intro.html
-    * https://smartlabai.medium.com/reinforcement-learning-algorithms-an-intuitive-overview-904e2dff5bbc
+    * [Link1](https://spinningup.openai.com/en/latest/spinningup/rl_intro.html)
+    * [Link2](https://smartlabai.medium.com/reinforcement-learning-algorithms-an-intuitive-overview-904e2dff5bbc)
     
 * SVM:
     * Hinge loss for soft margin, different parametrization with hard margin, max margin, regul added as well
     * Sub-gradient descent or coordinate gradient to solve it, before primal dual
     
 * Gaussian Mixture Models vs K-Means
-    * https://vitalflux.com/gaussian-mixture-models-what-are-they-when-to-use/
+    * [Link1](https://vitalflux.com/gaussian-mixture-models-what-are-they-when-to-use/)
     
 * What is the Bayes Rule? Explain the terms posterior, likelihood, and prior.
     * posterior = prior *likelihood
@@ -148,7 +145,7 @@ Reduced error pruning is perhaps the simplest version: replace each node. If it 
     * second order methods as well (Newton’s step) → faster than first order + higher smoothness assymptions
     
 * Time Series Analysis and Forecasting:
-    * Trend, seasonality, variation (MIT Lecture)[https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/resources/mit14_384f13_lec1/]
+    * Trend, seasonality, variation [MIT Lecture](https://ocw.mit.edu/courses/14-384-time-series-analysis-fall-2013/resources/mit14_384f13_lec1/)
     * ARMA: autoregresive moving average !
       * autogressive is linear function of past value
       * mooving average is linear function of past noise
@@ -156,10 +153,10 @@ Reduced error pruning is perhaps the simplest version: replace each node. If it 
   * Covariance is cov(y_t,y_{t+k}), normalized by var 0
   
 * What is ROC curve ?
-    * (ROC Curve)[https://intellipaat.com/blog/roc-curve-in-machine-learning/] is used to graphically represent the trade-off between true and false-positive rates.
+    * [ROC Curve](https://intellipaat.com/blog/roc-curve-in-machine-learning/) is used to graphically represent the trade-off between true and false-positive rates.
     
 * What is the difference between random forest and Gradient Bosted Machine ?
-    * The main difference between a random forest and GBM is the use of techniques. Random forest (https://intellipaat.com/blog/what-is-random-forest-algorithm-in-python/) advances predictions using a technique called bagging. On the other hand, GBM advances predictions with the help of a technique called boosting.
+    * The main difference between a random forest and GBM is the use of techniques. Random forest [Link1](https://intellipaat.com/blog/what-is-random-forest-algorithm-in-python/) advances predictions using a technique called bagging. On the other hand, GBM advances predictions with the help of a technique called boosting.
     * *Bagging:* In bagging, we apply arbitrary sampling and we divide the dataset into N. After that, we build a model by employing a single training algorithm. Following that, we combine the final predictions by polling. Bagging helps to increase the efficiency of a model by decreasing the variance to eschew overfitting.
     * *Boosting:* In boosting, the algorithm tries to review and correct the inadmissible predictions at the initial iteration. After that, the algorithm’s sequence of iterations for correction continues until we get the desired prediction. Boosting assists in reducing bias and variance for strengthening the weak learners.
     
@@ -191,7 +188,7 @@ Reduced error pruning is perhaps the simplest version: replace each node. If it 
   * Sigmoid: not blowing up activation
   * Relu : not vanishing gradient 
   * Relu : More computationally efficient to compute than Sigmoid like functions since Relu just needs to pick  and not perform expensive exponential operations as in Sigmoids
-  * Relu : In practice, networks with Relu tend to show better convergence performance than sigmoid. (Krizhevsky et al. (http://www.cs.toronto.edu/~fritz/absps/imagenet.pdf))
+  * Relu : In practice, networks with Relu tend to show better convergence performance than sigmoid. 
   * Sigmoid: tend to vanish gradient (cause there is a mechanism to reduce the gradient)
   * Relu : tend to blow up activation (there is no mechanism to constrain the output of the neuron, as itself is the output + Dying Relu problem - if too many activations get below zero then most of the units(neurons) in network with Relu will simply output zero, in other words, die and thereby prohibiting learning.(This can be handled, to some extent, by using Leaky-Relu instead.)
 
