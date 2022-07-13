@@ -1,3 +1,6 @@
+## Some links
+* [Reverse Interview](https://blog.pragmaticengineer.com/reverse-interviewing/) 
+
 ## Interviewer Questions
 
 * What does a typical day or week look like in this role? (Or _one of these alternatives_ (https://www.themuse.com/advice/5-better-questions-to-ask-at-the-end-of-an-interview-than-whats-a-typical-day-like-1).)
