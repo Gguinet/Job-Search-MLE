@@ -1,13 +1,13 @@
 ### Software Eng - System Design:
-* [https://www.educative.io/courses/grokking-the-system-design-interview](https://www.educative.io/courses/grokking-the-system-design-interview)
-
+* [Grokking the system design interview](https://www.educative.io/courses/grokking-the-system-design-interview)
+* [Introduction to Distributed System Design](https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c/)
 
 
 ### ML Eng - System Design
 * [Designing a machine learning system](https://huyenchip.com/machine-learning-systems-design/design-a-machine-learning-system.html)
 * [MLOps Principle](https://ml-ops.org/content/mlops-principles)
 
-## Summary of keys steps
+## Summary of keys steps for ML System Design
 
 * Step 1: Framing (6 steps)
     * Goals
