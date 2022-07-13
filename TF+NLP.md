@@ -1,7 +1,7 @@
 # TF Inter
 
 ## Basic Model:
-```
+```python
 model = tf.keras.Sequential([
     tf.keras.layers.Flatten(input_shape=(28, 28)),
     tf.keras.layers.Dense(128, activation='relu'),
@@ -24,7 +24,7 @@ probability_model = tf.keras.Sequential([model,
 
 ## Transformer models for language understanding [Link1](https://colab.research.google.com/github/tensorflow/text/blob/master/docs/tutorials/transformer.ipynb#scrollTo=RqQ1fIsLwkGE)
 
-```
+```python
 # Tokenizer use 
 
 encoded = tokenizers.en.tokenize(en_examples)
@@ -66,7 +66,7 @@ def scaled_dot_product_attention(q, k, v, mask):
 
 ## Improved Training with gradient (BONUS)
 
-```
+```python
 # The @tf.function trace-compiles train_step into a TF graph for faster
 # execution. The function specializes to the precise shape of the argument
 # tensors. To avoid re-tracing due to the variable sequence lengths or variable
@@ -113,7 +113,7 @@ for step in range(1000):
 
 ## RNN for text Classif [Link1](https://colab.research.google.com/github/tensorflow/text/blob/master/docs/tutorials/text_classification_rnn.ipynb#scrollTo=jo1jjO3vn0jo)
 
-```
+```python
 # Create an encoder for 0/1 vectors
 
 VOCAB_SIZE = 1000
@@ -156,7 +156,7 @@ model = tf.keras.Sequential([
 
 ## RNN for text Generation [Link1](https://colab.research.google.com/github/tensorflow/text/blob/master/docs/tutorials/text_generation.ipynb) - GRU Loop
 
-```
+```python
 class MyModel(tf.keras.Model):
   def __init__(self, vocab_size, embedding_dim, rnn_units):
     super().__init__(self)
