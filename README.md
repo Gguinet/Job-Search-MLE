@@ -9,7 +9,7 @@
 
 ## Nice general read:
 * [Research Scientist ML Job Hunt](https://generalizederror.github.io/My-Machine-Learning-Research-Jobhunt/)
-* [Pragmatic Engineer Test](https://blog.pragmaticengineer.com/pragmatic-engineer-test/)
+* [Pragmatic Engineer](https://blog.pragmaticengineer.com)
 
 * Salary + Else Negociations:
   * [Link1](https://www.kalzumeus.com/2012/01/23/salary-negotiation/)
