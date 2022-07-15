@@ -26,24 +26,24 @@
     * Biaises
 
 Step 3: Modeling (4 steps + case study)
-    * Model Selection: 
-    * From Baseline 
-    * heuristic 
-    * Model
+   * Model Selection: 
+   * From Baseline 
+   * heuristic 
+   * Model
 
 Set 4: Training (3 steps)
-    * Simple -> More components
-    * Overfit a single batch
-    * Hyperparameter tuning
+   * Simple -> More components
+   * Overfit a single batch
+   * Hyperparameter tuning
 
 
 Step 5: Scaling + Serving (6steps)
-    * Tricks as well
-    * A/B test
-    * Online Loop
-    * Inference
-    * Interpretability
-    * Ablation Study
+   * Tricks as well
+   * A/B test
+   * Online Loop
+   * Inference
+   * Interpretability
+   * Ablation Study
     
     
 ## Set of questions:
