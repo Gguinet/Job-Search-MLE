@@ -1,5 +1,5 @@
 Links:
-* [Reddit thread](https://www.reddit.com/r/MachineLearning/comments/7wst07/d_study_guides_for_interview_at_ai_research/)
+* [Deep Learning Interview Q&A Book](https://arxiv.org/pdf/2201.00650.pdf)
 
 Q&A:
 * How is a decision tree created? 
