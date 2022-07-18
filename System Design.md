@@ -2,6 +2,7 @@
 * [Grokking the system design interview](https://www.educative.io/courses/grokking-the-system-design-interview)
 * [System Design Lessons](https://www.hiredintech.com/classrooms/system-design/lesson/56)
 * [Introduction to Distributed System Design](https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c/)
+* [System Design Interview Prep](https://igotanoffer.com/blogs/tech/system-design-interview-prep)
 
 
 ### ML Eng - System Design
