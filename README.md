@@ -11,6 +11,7 @@
 
 * [Research Scientist ML Job Hunt](https://generalizederror.github.io/My-Machine-Learning-Research-Jobhunt/)
 * [Pragmatic Engineer](https://blog.pragmaticengineer.com)
+* [ML Engineer Interview Map](https://medium.com/attenchen-to-detail/ml-engineer-interview-guide-16e5aad9072b)
 * Salary + Negociations:
   * [Salary](https://www.levels.fyi/?compare=Google,Facebook,Salesforce&track=Software%20Engineer)
   * [Link1](https://www.kalzumeus.com/2012/01/23/salary-negotiation/)
