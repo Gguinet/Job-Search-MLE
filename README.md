@@ -19,6 +19,9 @@
   * [Link3](https://www.freecodecamp.org/news/how-not-to-bomb-your-offer-negotiation-c46bb9bc7dea)
 * [CS Career Hub](https://cscareerhub.com/wiki-faq): Discord focused on the tech career + Blog. At any given time, more than 1,000 people are online. The server has more early-career people, but there are plenty of experienced people as well.
   
+ ## Project Management
+ 
+ * For Handling both networking and process, I used [ClickUp](https://clickup.com) (sort of an improved Trello) with paying option and was very satisfied.
   
 ## A bit unrelated, to keep in mind for your own company
 * [Nice interview format 1](https://generallyintelligent.ai/blog/2022-01-20-our-hiring-process/)
