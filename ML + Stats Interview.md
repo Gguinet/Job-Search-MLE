@@ -1,4 +1,7 @@
 Links:
+* [Deep Learning Q&A, (2018)](https://github.com/Sroy20/machine-learning-interview-questions/blob/master/list_of_questions_deep_learning.md)
+* [ML Q&A, (2018)](https://github.com/Sroy20/machine-learning-interview-questions/blob/master/list_of_questions_machine_learning.md)
+* [Math of ML Q&A, (2018)](https://github.com/Sroy20/machine-learning-interview-questions/blob/master/list_of_questions_mathematics.md)
 * [Deep Learning Interview Q&A Book](https://arxiv.org/pdf/2201.00650.pdf)
 
 Q&A:
