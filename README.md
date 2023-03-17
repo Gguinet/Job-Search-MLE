@@ -18,6 +18,7 @@
   * [Link1](https://www.kalzumeus.com/2012/01/23/salary-negotiation/)
   * [Link2](https://www.freecodecamp.org/news/ten-rules-for-negotiating-a-job-offer-ee17cccbdab6)
   * [Link3](https://www.freecodecamp.org/news/how-not-to-bomb-your-offer-negotiation-c46bb9bc7dea)
+* Some interviews [1](https://www.getsphere.com/blog/career-opportunities-in-machine-learning-a-live-talk-with-coheres-alexandre-matton)
   
  ## Project Management
  
